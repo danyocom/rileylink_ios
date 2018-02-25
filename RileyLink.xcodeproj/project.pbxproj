@@ -17,8 +17,8 @@
 		2FDE1A071E57B12D00B56A27 /* ReadCurrentPageNumberMessageBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDE1A061E57B12D00B56A27 /* ReadCurrentPageNumberMessageBody.swift */; };
 		43047FC41FAEC70600508343 /* RadioFirmwareVersionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43047FC31FAEC70600508343 /* RadioFirmwareVersionTests.swift */; };
 		43047FC61FAEC83000508343 /* RFPacketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43047FC51FAEC83000508343 /* RFPacketTests.swift */; };
-		43047FC71FAEC9BC00508343 /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* NSData.swift */; };
-		43047FC91FAECA8700508343 /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* NSData.swift */; };
+		43047FC71FAEC9BC00508343 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* Data.swift */; };
+		43047FC91FAECA8700508343 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* Data.swift */; };
 		431CE7781F98564200255374 /* RileyLinkBLEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431CE76F1F98564100255374 /* RileyLinkBLEKit.framework */; };
 		431CE7811F98564200255374 /* RileyLinkBLEKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 431CE7711F98564100255374 /* RileyLinkBLEKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		431CE7841F98564200255374 /* RileyLinkBLEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431CE76F1F98564100255374 /* RileyLinkBLEKit.framework */; };
@@ -52,7 +52,7 @@
 		434AB0961CBA0DF600422F4A /* PumpOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434AB0921CBA0DF600422F4A /* PumpOps.swift */; };
 		434AB0971CBA0DF600422F4A /* PumpOpsSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434AB0931CBA0DF600422F4A /* PumpOpsSession.swift */; };
 		434AB0981CBA0DF600422F4A /* PumpState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434AB0941CBA0DF600422F4A /* PumpState.swift */; };
-		434AB0C71CBCB76400422F4A /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* NSData.swift */; };
+		434AB0C71CBCB76400422F4A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* Data.swift */; };
 		434FF1DC1CF268BD000DB779 /* IdentifiableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431185AE1CF25A590059ED98 /* IdentifiableClass.swift */; };
 		434FF1DE1CF268F3000DB779 /* RileyLinkDeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FF1DD1CF268F3000DB779 /* RileyLinkDeviceTableViewCell.swift */; };
 		435535D61FB6D98400CE5A23 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435535D51FB6D98400CE5A23 /* UserDefaults.swift */; };
@@ -69,13 +69,13 @@
 		437462391FA9287A00643383 /* RileyLinkDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437462381FA9287A00643383 /* RileyLinkDevice.swift */; };
 		437F54071FBD52120070FF2C /* DeviceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F54061FBD52120070FF2C /* DeviceState.swift */; };
 		437F54091FBF9E0A0070FF2C /* RileyLinkDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F54081FBF9E0A0070FF2C /* RileyLinkDevice.swift */; };
-		437F540A1FBFDAA60070FF2C /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* NSData.swift */; };
+		437F540A1FBFDAA60070FF2C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* Data.swift */; };
 		4384C8C61FB92F8100D916E6 /* HistoryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4384C8C51FB92F8100D916E6 /* HistoryPage.swift */; };
 		4384C8C81FB937E500D916E6 /* PumpSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4384C8C71FB937E500D916E6 /* PumpSettings.swift */; };
 		4384C8C91FB941FB00D916E6 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EBE4501EAD238C0073A0B5 /* TimeInterval.swift */; };
 		438D39221D19011700D40CA4 /* PlaceholderPumpEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D39211D19011700D40CA4 /* PlaceholderPumpEvent.swift */; };
 		43A068EC1CF6BA6900F9EFE4 /* ReadRemainingInsulinMessageBodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A068EB1CF6BA6900F9EFE4 /* ReadRemainingInsulinMessageBodyTests.swift */; };
-		43A9E50E1F6B865000307931 /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* NSData.swift */; };
+		43A9E50E1F6B865000307931 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* Data.swift */; };
 		43B0ADC01D0FC03200AAD278 /* NSDateComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B0ADBF1D0FC03200AAD278 /* NSDateComponentsTests.swift */; };
 		43B0ADC21D12454700AAD278 /* TimestampedHistoryEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B0ADC11D12454700AAD278 /* TimestampedHistoryEvent.swift */; };
 		43B0ADC41D12506A00AAD278 /* NSDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B0ADC31D12506A00AAD278 /* NSDateFormatter.swift */; };
@@ -210,9 +210,8 @@
 		C1130FE920159EDC007D13DB /* GetStatusCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1130FE520159EDC007D13DB /* GetStatusCommand.swift */; };
 		C1130FEA20159EDC007D13DB /* StatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1130FE620159EDC007D13DB /* StatusResponse.swift */; };
 		C1130FEB20159EDC007D13DB /* MessageBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1130FE720159EDC007D13DB /* MessageBlock.swift */; };
-		C1130FED20159EE3007D13DB /* UInt32.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1130FEC20159EE2007D13DB /* UInt32.swift */; };
 		C1130FEE20159FD5007D13DB /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EBE4501EAD238C0073A0B5 /* TimeInterval.swift */; };
-		C1130FEF2015AD41007D13DB /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* NSData.swift */; };
+		C1130FEF2015AD41007D13DB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* Data.swift */; };
 		C121985F1C8DE77D00BC374C /* FindDeviceMessageBodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C121985E1C8DE77D00BC374C /* FindDeviceMessageBodyTests.swift */; };
 		C12198611C8DEB7B00BC374C /* DeviceLinkMessageBodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12198601C8DEB7B00BC374C /* DeviceLinkMessageBodyTests.swift */; };
 		C12198631C8DF4C800BC374C /* HistoryPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12198621C8DF4C800BC374C /* HistoryPageTests.swift */; };
@@ -271,7 +270,6 @@
 		C15AF2AF1D7498930031FC9D /* RestoreMystery54PumpEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF2AE1D7498930031FC9D /* RestoreMystery54PumpEvent.swift */; };
 		C15AF2B11D7498DD0031FC9D /* RestoreMystery55PumpEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF2B01D7498DD0031FC9D /* RestoreMystery55PumpEvent.swift */; };
 		C15FBB7B20422B8C00F31C1B /* SetInsulinScheduleCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15FBB7A20422B8C00F31C1B /* SetInsulinScheduleCommand.swift */; };
-		C15FBB7D2042308E00F31C1B /* UInt16.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15FBB7C2042308E00F31C1B /* UInt16.swift */; };
 		C16843771CF00C0100D53CCD /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16843761CF00C0100D53CCD /* SwitchTableViewCell.swift */; };
 		C16A08311D389205001A200C /* JournalEntryMealMarkerPumpEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A08301D389205001A200C /* JournalEntryMealMarkerPumpEvent.swift */; };
 		C1711A561C94F13400CB25BD /* ButtonPressCarelinkMessageBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1711A551C94F13400CB25BD /* ButtonPressCarelinkMessageBody.swift */; };
@@ -378,7 +376,7 @@
 		C1EAD6B61C826B6D006DBA60 /* PacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6B11C826B6D006DBA60 /* PacketType.swift */; };
 		C1EAD6B71C826B6D006DBA60 /* PumpMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6B21C826B6D006DBA60 /* PumpMessage.swift */; };
 		C1EAD6C51C826B92006DBA60 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6B91C826B92006DBA60 /* Int.swift */; };
-		C1EAD6C61C826B92006DBA60 /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* NSData.swift */; };
+		C1EAD6C61C826B92006DBA60 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* Data.swift */; };
 		C1EAD6C71C826B92006DBA60 /* NSDateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BB1C826B92006DBA60 /* NSDateComponents.swift */; };
 		C1EAD6C81C826B92006DBA60 /* CarelinkMessageBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BD1C826B92006DBA60 /* CarelinkMessageBody.swift */; };
 		C1EAD6C91C826B92006DBA60 /* MySentryAckMessageBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BE1C826B92006DBA60 /* MySentryAckMessageBody.swift */; };
@@ -754,7 +752,6 @@
 		C1130FE520159EDC007D13DB /* GetStatusCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStatusCommand.swift; sourceTree = "<group>"; };
 		C1130FE620159EDC007D13DB /* StatusResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusResponse.swift; sourceTree = "<group>"; };
 		C1130FE720159EDC007D13DB /* MessageBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBlock.swift; sourceTree = "<group>"; };
-		C1130FEC20159EE2007D13DB /* UInt32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UInt32.swift; sourceTree = "<group>"; };
 		C121985E1C8DE77D00BC374C /* FindDeviceMessageBodyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindDeviceMessageBodyTests.swift; sourceTree = "<group>"; };
 		C12198601C8DEB7B00BC374C /* DeviceLinkMessageBodyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceLinkMessageBodyTests.swift; sourceTree = "<group>"; };
 		C12198621C8DF4C800BC374C /* HistoryPageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryPageTests.swift; sourceTree = "<group>"; };
@@ -820,7 +817,6 @@
 		C15AF2AE1D7498930031FC9D /* RestoreMystery54PumpEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestoreMystery54PumpEvent.swift; sourceTree = "<group>"; };
 		C15AF2B01D7498DD0031FC9D /* RestoreMystery55PumpEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestoreMystery55PumpEvent.swift; sourceTree = "<group>"; };
 		C15FBB7A20422B8C00F31C1B /* SetInsulinScheduleCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetInsulinScheduleCommand.swift; sourceTree = "<group>"; };
-		C15FBB7C2042308E00F31C1B /* UInt16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UInt16.swift; sourceTree = "<group>"; };
 		C16843761CF00C0100D53CCD /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 		C16A08301D389205001A200C /* JournalEntryMealMarkerPumpEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntryMealMarkerPumpEvent.swift; sourceTree = "<group>"; };
 		C170C98D1CECD6F300F3D8E5 /* CBPeripheralState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBPeripheralState.swift; sourceTree = "<group>"; };
@@ -937,7 +933,7 @@
 		C1EAD6B11C826B6D006DBA60 /* PacketType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacketType.swift; sourceTree = "<group>"; };
 		C1EAD6B21C826B6D006DBA60 /* PumpMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PumpMessage.swift; sourceTree = "<group>"; };
 		C1EAD6B91C826B92006DBA60 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
-		C1EAD6BA1C826B92006DBA60 /* NSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSData.swift; sourceTree = "<group>"; };
+		C1EAD6BA1C826B92006DBA60 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		C1EAD6BB1C826B92006DBA60 /* NSDateComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateComponents.swift; sourceTree = "<group>"; };
 		C1EAD6BD1C826B92006DBA60 /* CarelinkMessageBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarelinkMessageBody.swift; sourceTree = "<group>"; };
 		C1EAD6BE1C826B92006DBA60 /* MySentryAckMessageBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySentryAckMessageBody.swift; sourceTree = "<group>"; };
@@ -1208,7 +1204,7 @@
 			children = (
 				431185AE1CF25A590059ED98 /* IdentifiableClass.swift */,
 				431CE7941F9B0DAE00255374 /* OSLog.swift */,
-				C1EAD6BA1C826B92006DBA60 /* NSData.swift */,
+				C1EAD6BA1C826B92006DBA60 /* Data.swift */,
 				43323EA61FA81A0F003FB0FA /* NumberFormatter.swift */,
 				43EBE4501EAD238C0073A0B5 /* TimeInterval.swift */,
 				4345D1CD1DA16AF300BAAD22 /* TimeZone.swift */,
@@ -1361,9 +1357,7 @@
 		C1130FE220159EA2007D13DB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C1130FEC20159EE2007D13DB /* UInt32.swift */,
 				C14D8188203FD0C600184B72 /* Notification.swift */,
-				C15FBB7C2042308E00F31C1B /* UInt16.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -2356,7 +2350,7 @@
 				432847C31FA57C0F00CDE69C /* RadioFirmwareVersion.swift in Sources */,
 				431CE7931F985DE700255374 /* PeripheralManager+RileyLink.swift in Sources */,
 				431CE79A1F9B0F1600255374 /* OSLog.swift in Sources */,
-				43047FC91FAECA8700508343 /* NSData.swift in Sources */,
+				43047FC91FAECA8700508343 /* Data.swift in Sources */,
 				431CE7A51F9D78F500255374 /* RFPacket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2367,7 +2361,7 @@
 			files = (
 				4322B75620282DA60002837D /* ResponseBufferTests.swift in Sources */,
 				43047FC41FAEC70600508343 /* RadioFirmwareVersionTests.swift in Sources */,
-				43047FC71FAEC9BC00508343 /* NSData.swift in Sources */,
+				43047FC71FAEC9BC00508343 /* Data.swift in Sources */,
 				43047FC61FAEC83000508343 /* RFPacketTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2382,7 +2376,7 @@
 				43EBE4531EAD23CE0073A0B5 /* TimeInterval.swift in Sources */,
 				436CCEF21FB953E800A6822B /* CommandSession.swift in Sources */,
 				C1A721601EC29C0B0080FAD7 /* PumpOpsError.swift in Sources */,
-				434AB0C71CBCB76400422F4A /* NSData.swift in Sources */,
+				434AB0C71CBCB76400422F4A /* Data.swift in Sources */,
 				4384C8C61FB92F8100D916E6 /* HistoryPage.swift in Sources */,
 				434AB0981CBA0DF600422F4A /* PumpState.swift in Sources */,
 				431CE7961F9B0F0200255374 /* OSLog.swift in Sources */,
@@ -2401,7 +2395,7 @@
 			files = (
 				2F962EBF1E678BAA0070EFBD /* PumpOpsSynchronousTests.swift in Sources */,
 				4384C8C91FB941FB00D916E6 /* TimeInterval.swift in Sources */,
-				43A9E50E1F6B865000307931 /* NSData.swift in Sources */,
+				43A9E50E1F6B865000307931 /* Data.swift in Sources */,
 				2F962EC51E705C6E0070EFBD /* PumpOpsSynchronousBuildFromFramesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2552,7 +2546,7 @@
 				C1842C001C8FA45100DB42AC /* JournalEntryPumpLowReservoirPumpEvent.swift in Sources */,
 				54A840D11DB85D0600B1F202 /* UnknownGlucoseEvent.swift in Sources */,
 				C1842BCF1C8F9E5100DB42AC /* PumpAlarmPumpEvent.swift in Sources */,
-				C1EAD6C61C826B92006DBA60 /* NSData.swift in Sources */,
+				C1EAD6C61C826B92006DBA60 /* Data.swift in Sources */,
 				C1842C211C8FA45100DB42AC /* ChangeAlarmNotifyModePumpEvent.swift in Sources */,
 				C1842BC31C8E931E00DB42AC /* BolusNormalPumpEvent.swift in Sources */,
 				541688DD1DB82213005B1891 /* ReadCurrentGlucosePageMessageBody.swift in Sources */,
@@ -2641,12 +2635,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1130FED20159EE3007D13DB /* UInt32.swift in Sources */,
 				C1130FEA20159EDC007D13DB /* StatusResponse.swift in Sources */,
-				C15FBB7D2042308E00F31C1B /* UInt16.swift in Sources */,
 				C1130FEB20159EDC007D13DB /* MessageBlock.swift in Sources */,
 				C1130FCA20159CD5007D13DB /* PodCommsSession.swift in Sources */,
-				C1130FEF2015AD41007D13DB /* NSData.swift in Sources */,
+				C1130FEF2015AD41007D13DB /* Data.swift in Sources */,
 				C18454202031DEA200EAD422 /* AssignAddressCommand.swift in Sources */,
 				C15FBB7B20422B8C00F31C1B /* SetInsulinScheduleCommand.swift in Sources */,
 				C1130FC420159CD5007D13DB /* CRC8.swift in Sources */,
@@ -2691,7 +2683,7 @@
 				C14FFC5E1D3D75200049CF85 /* ButtonTableViewCell.swift in Sources */,
 				43EBE4551EAD24410073A0B5 /* TimeInterval.swift in Sources */,
 				C14FFC691D3D7E560049CF85 /* KeychainManager+RileyLink.swift in Sources */,
-				437F540A1FBFDAA60070FF2C /* NSData.swift in Sources */,
+				437F540A1FBFDAA60070FF2C /* Data.swift in Sources */,
 				C14FFC511D3D6DEF0049CF85 /* ServiceCredential.swift in Sources */,
 				C14FFC5B1D3D74F90049CF85 /* NibLoadable.swift in Sources */,
 				C14FFC611D3D75470049CF85 /* UIColor.swift in Sources */,
